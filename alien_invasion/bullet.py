@@ -25,3 +25,9 @@ class Bullet(Sprite):
 
     def draw_bullet(self):
         pygame.draw.rect(self.screen, self.color, self.rect)
+
+    def delete_bullet(self,bullets):
+        for bullet in bullets:
+            bullets.remove(bullet)
+        print("剩余子弹数："+str(len(bullets)))
+

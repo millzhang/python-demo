@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/
+__pycache__/*
+*.pyc
 *.py[cod]
 *$py.class
 
@@ -100,3 +101,7 @@ ENV/
 
 # mypy
 .mypy_cache/
+alien_invasion/__pycache__/bullet.cpython-36.pyc
+alien_invasion/__pycache__/game_functions.cpython-36.pyc
+alien_invasion/__pycache__/setting.cpython-36.pyc
+alien_invasion/__pycache__/ship.cpython-36.pyc

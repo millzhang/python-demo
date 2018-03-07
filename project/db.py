@@ -27,7 +27,7 @@ class db_operate():
         current_time = time.strftime('%Y-%m-%d %H:%M:%S',
                                      time.localtime(time.time()))
         sql_insert = "insert into geyan(category,content,url,create_time) values('" + category + "','" + content + "','" + url + "','" + current_time + "')"
-        print("执行插入操作，sql语句=>" + sql_insert)
+        # print("\n执行插入操作，sql语句=>" + sql_insert)
         try:
             self.cur.execute(sql_insert)
             self.db.commit()

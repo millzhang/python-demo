@@ -45,4 +45,19 @@ class Setting():
             "category_cn": "人生格言2"
         }]
 
+        self.ss_target = [{
+            "category": "xinqing",
+            "prefix": "list_2",
+            "category_cn": "心情说说"
+        }, {
+            "category": "lizhi",
+            "prefix": "list_7",
+            "category_cn": "励志说说"
+        }, {
+            "category": "duanyu",
+            "prefix": "list_7",
+            "category_cn": "心情短语"
+        }]
+
         self.domain = "https://www.geyanw.com"
+        self.proxy_ip = ""

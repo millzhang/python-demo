@@ -7,8 +7,6 @@ from setting import Setting
 # logger = Logger("格言网-爬虫模块")
 class Crawler():
     def __init__(self, setting, db):
-        # 当前类别下所有待爬链接的列表
-        self.category_url_list = []
         self.domain = setting.domain
         self.db = db
         self.setting = setting

@@ -1,7 +1,7 @@
 from setting import Setting
 from db import db_operate
-# from crawler import Crawler
-from crawler_shuoshuo import Crawler
+from crawler import Crawler
+# from crawler_shuoshuo import Crawler
 
 def run():
     # 数据库初始化,配置初始化
